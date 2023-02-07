@@ -32,7 +32,7 @@ if (sexo == "m"): # Male
     if (retireByAge >= 65 and daysWorking >= 35):
         print("\n\nParabéns você está aposentado!")
         print(f"Trabalhou por {daysWorking} anos e hoje tem {retireByAge} anos de vida!")
-    else:''
+    else:
         print("\n\nVocê ainda precisa trabalhar um pouco mais!")
         print(f"Você ainda possui {daysWorking} anos de trabalho e hoje tem {retireByAge} anos de vida")
         print(f"Falta {35 - daysWorking} anos de trabalho e {65 - retireByAge} anos de vida para você se aposentar!")
